@@ -10,46 +10,26 @@ Highlights:
 - 🌍 Language Exchange Platform with 32 Unique UI Themes
 - ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
 - 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
 
----
 
-## 🧪 .env Setup
 
-### Backend (`/backend`)
+**COMPANY**: CODTECH IT SOLUTIONS
 
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
+**NAME**: Sahil Sanjay Tambadkar
 
-### Frontend (`/frontend`)
+**INTERN ID**: CT04DA670
 
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+**DOMAIN**: FULL STACK WEB DEVELOPMENT
 
----
+**BATCH DURATION**: April 10th, 2025 to May 10th, 2025
 
-## 🔧 Run the Backend
+**MENTOR NAME** : NEELA SANTHOSH KUMAR
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+# DESCRIPTION OF TASK PERFORMED : 
+As a task of CODTECH internship, I built a Real-time chatting application .To develop a one-on-one real-time chat application, I utilized modern web technologies to ensure seamless communication between users. The primary technology for real-time functionality is **Socket.IO**, a JavaScript library built on WebSocket that allows for event-driven, bidirectional communication between the server and the client. On the backend, I employed **Node.js** for its non-blocking I/O and event-driven architecture, making it ideal for real-time applications. **Express.js**, a lightweight web framework for Node.js, was used to handle routes and serve the frontend files. For the frontend, I implemented **HTML**, **CSS**, and **JavaScript** to design the user interface, ensuring responsiveness and intuitive usability. The application works by first prompting users to enter their username upon opening the interface; this username is stored temporarily on the server using **Socket.IO's connection instance**. Once registered, the user is redirected to a chat interface where they can specify the recipient's username in a dedicated input field to initiate a one-on-one conversation. The chat application checks in real-time whether the recipient is online by verifying the active connections maintained by the server. If the recipient is online, the message is sent and immediately displayed in the recipient's chat window, ensuring a seamless and real-time experience. If the recipient is offline, the sender is notified that the message cannot be delivered. To achieve this, I implemented event listeners and emitters in **Socket.IO** to handle events like `user_connected`, `message_sent`, and `user_disconnected`. The server tracks active users by maintaining an in-memory object that maps usernames to their respective socket IDs, enabling precise message routing. On the client side, messages sent by the user are appended dynamically to the chat window using **DOM manipulation**, with alternating styles for clarity. The chat room also incorporates a scrollable message window, ensuring that users can review previous messages without clutter. For styling, I utilized **CSS** to create a modern, clean interface, including a horizontal navbar with the app name prominently displayed, and a consistent card layout that maintains uniform dimensions regardless of content size. The chat interface itself includes a recipient input field, a message input box, and a send button. Error handling was implemented to address scenarios such as attempting to message a user who is not online or leaving fields empty. All routes, such as serving the static HTML file and handling socket connections, were managed through **Express.js**, ensuring a clean and organized codebase. Security was a key consideration; while the app is currently designed for demonstration purposes, features such as user authentication, encrypted communication, and database integration for message storage can be added in the future to enhance reliability and privacy. Overall, this project emphasizes the simplicity and power of **Socket.IO** and demonstrates how a small yet efficient tech stack can create a functional and user-friendly real-time chat application. 
+This application excels in delivering a smooth, user-centric experience with responsive design, real-time feedback, and robust error handling. The dynamic interface ensures ease of use, while the backend reliably manages connections and messaging. Concluding, the project highlights the synergy of Socket.IO, Node.js, Express.js, and modern frontend technologies to build a scalable, efficient, and interactive one-on-one chat solution. I have named my project as **Connectify**.
 
-## 💻 Run the Frontend
+# OUTPUT OF THE TASK
+![Image](https://github.com/user-attachments/assets/24078b7c-633e-48cb-a347-a4c523b2f46c)
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+![Image](https://github.com/user-attachments/assets/d48d2e40-5b2c-4955-955a-260ba2ce7ebe)
